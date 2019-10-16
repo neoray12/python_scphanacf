@@ -1,0 +1,10 @@
+---
+applications:
+- name: python_webservice
+  host: python_webservice
+  memory: 512M
+  disk_quota: 1024M
+  timeout: 60
+  buildpack: python_buildpack
+  services:
+   - hanatw
